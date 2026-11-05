@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "heh3spotify",
+  "version": "1.0.0",
+  "name": "Heh3 Spotify HUD",
+  "description": "Client-side now-playing HUD with a player pop-out (play, skip, back, seek, shuffle, repeat, volume) and full colour customisation. Windows.",
+  "authors": ["Heh3"],
+  "contact": { "homepage": "https://discord.gg/Y53P35Dbjn" },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.heh3spotify.SpotifyMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
